@@ -53,7 +53,7 @@ def train(model, train_loader, optimizer, epoch):
                     loss.item(),
                 )
             )
-        if batch_idx > 1000:
+        if batch_idx > 100:
             break
 
 
